@@ -1,0 +1,15 @@
+# Instâncias privadas — nunca versionar neste repo
+# (o único ESTADO.md permitido é o arquivo-semente com placeholders em kit/)
+.claude/ESTADO.md
+ESTADO-*.md
+!templates/ESTADO-template.md
+*.tmp
+session-data/
+memory/
+*.zip
+*.pdf
+
+# Ambiente
+.env
+__pycache__/
+node_modules/
