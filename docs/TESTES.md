@@ -59,6 +59,18 @@
 - **Se falhar:** reforçar a lista de dados proibidos no contrato do CLAUDE.md
   (quanto mais específica ao domínio, melhor) e registrar a falha nas Lições ativas.
 
+## T4c — Memória obsoleta (anti-apodrecimento)
+
+- **Passos:** periodicamente (ou quando algo "soar estranho"), pedir à IA:
+  *"verifique se as Lições ativas do ESTADO.md e as memórias do índice ainda citam
+  arquivos, comandos e decisões que existem de fato"*.
+- **Esperado:** toda referência conferida; memória que cita coisa que não existe mais
+  é corrigida ou deletada na hora, e o índice/ESTADO.md voltam a caber nos tetos
+  (150 linhas ESTADO / 60 linhas MEMORY.md).
+- **Se falhar** (referência morta permanece): é o modo de morte clássico do sistema —
+  memória apodrecida vira ruído e a IA passa a ignorar a memória toda. Tratar deleção
+  como manutenção normal, não como perda.
+
 ---
 
 ## Testes da camada Graphify (opcional — só código)

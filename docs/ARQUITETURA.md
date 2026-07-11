@@ -42,9 +42,13 @@ L1  HISTÓRICO    snapshots de sessão + índice           ← registro bruto, c
    "Lições ativas" do ESTADO.md.
 2. Lição que mudaria o comportamento da próxima sessão → entra em "Lições ativas" do L2.
 3. Lição confirmada 2+ vezes, **ou crítica** (prejuízo real, dado errado entregue) →
-   promove ao L3 (CLAUDE.md) e **sai do L2**.
-4. O teto de 150 linhas do L2 força a destilação: para entrar algo, algo sai
-   (apaga ou promove).
+   promove ao L3 (CLAUDE.md) e **sai do L2** — deixando no lugar apenas 1 linha-ponteiro
+   ("promovida ao CLAUDE.md: <regra>"), para a mesma lição não ser re-registrada como nova.
+4. Lição/memória **obsoleta** (cita arquivo, comando ou decisão que não existe mais) →
+   corrigir ou deletar na hora, sem cerimônia.
+5. **Os tetos são regra dura, não sugestão:** 150 linhas no ESTADO.md, 60 linhas no
+   índice MEMORY.md. Para entrar algo, algo sai (apaga, funde ou promove). Sem teto,
+   cada camada vira um segundo contexto inchado e o custo por sessão cresce em silêncio.
 
 > Redação de lição promovida: regra operacional ("antes de X, faça Y"), nunca
 > narrativa do incidente. Regra ambígua é regra que falha na 3ª vez.
@@ -53,6 +57,11 @@ L1  HISTÓRICO    snapshots de sessão + índice           ← registro bruto, c
 
 - **Início:** ler `<raiz>/.claude/ESTADO.md` (≈2k tokens) em vez de re-explorar tudo.
 - **Fim:** atualizar o delta no ESTADO.md (+ snapshot L1, se adotado).
+- **Sessão ficou longa ou lenta?** Encerrar é técnica, não perda: sessões muito longas
+  pagam re-leitura de todo o contexto acumulado a cada mensagem. Atualize o ESTADO.md
+  com um handoff completo (o que está feito, o que falta em passos concretos, decisões
+  e porquês, pegadinhas, arquivos-chave) e **abra uma sessão nova e limpa** — se ela
+  retomar só com o ESTADO.md, o handoff estava bom; se não, corrija o ESTADO.md.
 
 ### Subagentes (warm-start barato)
 

@@ -111,9 +111,13 @@ com os trechos críticos **verbatim** e a referência exata. A partir daí, o ag
   2. Ler o ledger vivo do projeto: **`<RAIZ>/.claude/ESTADO.md`** (máx. 150 linhas) —
      o que está em andamento e o próximo passo exato.
   3. Sob demanda: a ficha da fonte pertinente em `corpus/derived/` (quando existir).
-- **Ao encerrar trabalho significativo:** atualizar o delta em `.claude/ESTADO.md`
-  (para entrar algo, algo sai ou é promovido para este CLAUDE.md).
+- **Ao encerrar trabalho significativo:** atualizar o delta em `.claude/ESTADO.md`.
+  Tetos duros: 150 linhas no ESTADO.md, 60 no índice MEMORY.md — para entrar algo,
+  algo sai (apaga, funde ou promove).
+- **Sessão longa/cara ou fim de fase:** atualizar o ESTADO.md como handoff completo
+  (feito / falta / decisões / pegadinhas / próximo passo) e recomeçar em sessão nova.
 - **Subagentes:** incluir o CONTEÚDO de `.claude/ESTADO.md` no prompt do spawn
   (não só o caminho).
 - **Lições:** falha nova → "Lições ativas" do ESTADO.md; lição repetida 2× ou crítica →
-  promover para este CLAUDE.md e remover do ESTADO.md.
+  promover para este CLAUDE.md, deixando no ESTADO.md só 1 linha-ponteiro. Memória ou
+  lição citando algo que não existe mais → corrigir ou apagar na hora.

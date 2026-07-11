@@ -151,6 +151,13 @@ explorando pastas. Se ela explorar tudo do zero, veja o teste T1 em
 - **Quando pesquisar uma fonte importante** (norma, diretriz, lei, jurisprudência):
   peça para destilar numa ficha em `corpus/derived/` — o próximo trabalho cita da
   ficha, não "de memória".
+- **Quando a sessão ficar muito longa (ou lenta/cara):** encerrar e recomeçar é
+  técnica, não perda. Peça — *"atualize o ESTADO.md com um handoff completo do ponto
+  em que estamos"* — feche a sessão e abra uma nova: ela retoma quente lendo só o
+  ESTADO.md, sem arrastar o peso da conversa antiga.
+- **De vez em quando, faça a faxina:** peça — *"verifique se as lições e memórias
+  ainda citam coisas que existem; corrija ou apague as obsoletas"*. Memória velha e
+  errada é pior que memória nenhuma.
 
 A regra mais importante de todas está no `CLAUDE.md`: **a IA nunca preenche dado
 técnico do seu domínio por plausibilidade** — ou vem de fonte conferida, ou fica

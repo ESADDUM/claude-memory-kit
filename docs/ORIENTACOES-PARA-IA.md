@@ -62,12 +62,25 @@
 
 1. Atualizar o delta no `.claude/ESTADO.md`: data, status dos trabalhos, decisões
    novas, **próximo passo exato** (uma frase acionável).
-2. Respeitar o teto de 150 linhas: para entrar algo, algo sai ou é promovido.
+2. Respeitar os tetos **duros**: 150 linhas no ESTADO.md, 60 no índice `MEMORY.md` —
+   para entrar algo, algo sai (apaga, funde ou promove).
 3. Falha nova nesta sessão → "Lições ativas" (formato: causa → regra prática).
 4. Lição repetida 2× ou crítica → promover ao `CLAUDE.md` (redigida como regra
-   operacional, não como narrativa) e remover do ESTADO.md.
+   operacional, não como narrativa), deixando no ESTADO.md só 1 linha-ponteiro
+   ("promovida ao CLAUDE.md: <regra>").
 5. Preferência estável do usuário descoberta na sessão → arquivo em `memory/` +
    linha no `MEMORY.md`.
+6. Notou referência morta (memória/lição citando arquivo, comando ou decisão que não
+   existe mais)? Corrigir ou deletar na hora — memória apodrecida vira ruído.
+
+### Sessão longa ou cara — handoff e recomeço
+
+Sessão muito longa relê todo o contexto acumulado a cada mensagem. Quando a sessão
+ficar pesada ou uma fase de trabalho terminar, **proponha ao usuário encerrar**:
+atualize o ESTADO.md como handoff completo (o que está feito, o que falta em passos
+concretos, decisões + porquês, pegadinhas, arquivos-chave, próximo passo exato) e
+oriente a abrir sessão nova. Critério de qualidade: a sessão nova deve retomar lendo
+só o ESTADO.md — se precisar re-explorar, o handoff estava incompleto.
 
 ## O que NUNCA fazer
 
