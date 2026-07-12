@@ -60,6 +60,9 @@ Ao precisar de um dado técnico/citação, consultar **nesta ordem** e nunca inv
 
 > Ao pesquisar algo importante que ainda não está no corpus, **destilar a fonte numa
 > ficha** em `corpus/derived/` — assim o próximo trabalho já reusa (não repesquisar do zero).
+>
+> Para semear de uma vez as fichas das fontes mais recorrentes do seu domínio usando IA
+> (sem risco de citação inventada), ver `docs/SEMEAR-CORPUS.md`.
 
 ## 5. Checklist antes de entregar
 
