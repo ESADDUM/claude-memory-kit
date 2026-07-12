@@ -19,7 +19,8 @@ Raiz do projeto: `<RAIZ>`. Estrutura sugerida (adaptar os nomes ao domínio):
 ├── .claude/
 │   └── ESTADO.md             # ledger vivo do projeto
 ├── corpus/
-│   └── derived/              # fichas destiladas de fontes (leis, normas, diretrizes)
+│   └── derived/              # fichas destiladas de fontes (leis, normas, diretrizes) — cito daqui
+├── acervo/                   # know-how destilado por tema + trechos prontos do acervo — redijo daqui
 ├── <trabalhos>/              # ex.: casos/ | processos/ | disciplinas/ | pericias/
 │   └── <um-trabalho>/        # UMA PASTA POR TRABALHO (caso, processo, turma, laudo)
 │       ├── briefing.md       # o que é, quem pediu, prazo
@@ -63,6 +64,11 @@ Ao precisar de um dado técnico/citação, consultar **nesta ordem** e nunca inv
 >
 > Para semear de uma vez as fichas das fontes mais recorrentes do seu domínio usando IA
 > (sem risco de citação inventada), ver `docs/SEMEAR-CORPUS.md`.
+
+> **Para REDIGIR** (não só citar): ao repetir um tipo de trabalho, colher os trechos
+> reusáveis num arquivo de acervo por tema em `acervo/` — o agente passa a redigir a partir
+> deles, no seu estilo, em vez de escrever do zero. Corpus = *cito daqui*; acervo = *redijo
+> daqui*. Modelo: `acervo/EXEMPLO-TEMA.md`; a regra completa em `docs/ACERVO.md`.
 
 ## 5. Checklist antes de entregar
 
